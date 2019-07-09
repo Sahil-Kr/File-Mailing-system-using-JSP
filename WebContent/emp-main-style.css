@@ -1,0 +1,74 @@
+@import url(https://weloveiconfonts.com/api/?family=entypo|fontawesome);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+[class*="fa-"]:before {
+  position: absolute;
+  margin: 0 -1.5em;
+  font-family: 'FontAwesome', sans-serif;
+}
+
+body {
+  background: #4EAFCD;
+  font: normal 1.2em 'Roboto', sans-serif;
+}
+
+.box {
+  width: 17em;
+  height: 14.34em;
+  margin: 1em auto;
+  background: #e9dae6;
+  -moz-border-radius: 0.71429em;
+  -webkit-border-radius: 0.71429em;
+  border-radius: 0.71429em;
+  overflow: hidden;
+}
+.box .select {
+  line-height: 275%;
+  border-bottom: 0.15em solid rgba(185, 149, 190, 0.3);
+  padding: 0 15%;
+  color: #4EAFCD;
+ 
+}
+
+
+.box .write-message {
+  border-bottom: none;
+}
+.box .write-message:before {
+  color: #4EAFCD;
+}
+
+.box .outbox:before {
+  color: #4EAFCD;
+}
+
+.box .security-inbox:before {
+  color: #4EAFCD;
+}
+.box .settings:before {
+  color: #4EAFCD;
+  
+}
+
+.box .settings {
+  background: #5D6D7E;
+  
+}
+
+.box .security-inbox {
+  background: #5D6D7E;
+  
+}
+
+.box .active {
+  
+  color: #4EAFCD;
+  border-bottom: 0.12em solid rgba(0, 0, 0, 0.1) !important;
+  border-top: 0.12em solid rgba(0, 0, 0, 0.1) !important;
+}
+.box .active:before {
+  color: white;
+}
+.box .active:after {
+  box-shadow: none;
+}
+

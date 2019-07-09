@@ -1,0 +1,34 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sign In form</title>
+<link rel="stylesheet" type="text/css" href="login-style.css">
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<style>
+	h1 {
+			color: #fff;
+			font-size: 80px;
+			} 
+</style>
+</head>
+
+<body>
+<center><br><br><h1>DAK Management</h1></center>
+<div id="main" class="container"> 	
+	<form id="loginform" action="login_action.jsp" method="post" class="wpl-track-me"> 
+		<p class="login-username">
+			<input type="text" name="userid"  class="input" placeholder="User ID" required/> 
+		</p> 
+		<p class="login-password"> 
+			<input type="password" name="psw" class="input" placeholder="Password" required/> 
+		</p> 	
+		<p class="login-submit"><input type="submit" name="login" class="button-primary" value="Log in" />
+		</p>
+		
+		<br><center>--OR--</center><br>
+		<p class="login-submit"><input type="button" name="register" class="button-primary-reg" value="Register" onClick="location.replace('register.htm')" />
+		</p>
+	</form> 
+</div>
+</body>
+</html>
