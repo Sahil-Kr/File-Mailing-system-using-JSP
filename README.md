@@ -16,6 +16,5 @@ File Mailing System includes transfer of files and messages between different re
  ## How to Use
  - Bulid the project using Ecilipse IDE.
  - Change the directories in the code according to your file path.
- - Run index.htm on server.
+ - Run index.html on server.
  - First register some user in the system and then login with credentials.
- - Tweak the code according to your usage.
